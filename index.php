@@ -7,6 +7,12 @@
    <!-- It is used to add external css (css/style.css)-->
    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
+   <?php
+// connection file (config.php) is used to connect to database
+include('php/config.php');
+// Header (Global Navigation Links) 
+include('includes/header.php');
+?>
 
 
 <body>
